@@ -1,0 +1,7 @@
+from text2emotion import get_emotion
+
+text = "A circular routine of smiles and tears, Hachi is delightfully gentle and engaging, refusing to bloat the material past an elementary message of canine loyalty." #sample sentence
+
+emotions = get_emotion(text)
+
+print(emotions)
