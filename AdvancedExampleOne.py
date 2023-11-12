@@ -22,7 +22,7 @@ def get_emotion(sentence):
     return emotion, emotion_score
 
 # Test the function
-sentence = "I'm absolutely thrilled and overjoyed with the amazing news!"
+sentence = "I'm absolutely thrilled and overjoyed with the amazing news!" #<-Sample Sentence
 emotion, emotion_score = get_emotion(sentence)
 print("Emotion:", emotion)
 print("Emotion Score:", emotion_score)
